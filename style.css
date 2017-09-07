@@ -1,0 +1,41 @@
+* {
+    border: 2px solid black;
+}
+
+body {
+    background-color: slategrey;
+}
+
+/*******************************************  
+Left Panel
+********************************************/
+#leftPanel {
+    display: inline-block;
+}
+
+#red {
+    display: inline-block;
+    position: relative;
+    
+}
+
+#viewPort {
+    display: inline-block;
+    text-align: center;
+}
+
+#rightPanel {
+    display: inline-block;
+}
+
+.slider{
+    margin: 10px;
+    /* transform: rotate(-90deg); */
+}
+
+.viewFinder {
+    display: inline-block;
+    width: 700px; 
+    height: 450px; 
+    border: 1px solid #3f3f3f;
+}
